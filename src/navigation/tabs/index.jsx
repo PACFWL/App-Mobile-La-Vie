@@ -23,7 +23,7 @@ const TabsNavigator = () => {
 
   return (
     <Tab.Navigator
-      initialRouteName="Food"
+      initialRouteName="Menu"
       screenOptions={{
         headerShown: false,
         tabBarActiveTintColor: theme.colors.primary,
@@ -33,7 +33,7 @@ const TabsNavigator = () => {
       }}
     >
       <Tab.Screen
-        name="Food"
+        name="Menu"
         component={FoodNavigator}
         options={{
           tabBarIcon: ({ focused }) => (
@@ -42,7 +42,7 @@ const TabsNavigator = () => {
         }}
       />
       <Tab.Screen
-        name="Orders"
+        name="Pedido"
         component={OrdersNavigator}
         options={{
           tabBarIcon: ({ focused }) => (
@@ -51,7 +51,7 @@ const TabsNavigator = () => {
         }}
       />
       <Tab.Screen
-        name="Profile"
+        name="Perfil"
         component={ProfileNavigator}
         options={{
           tabBarIcon: ({ focused }) => (
