@@ -39,7 +39,7 @@ const DetailScreen = ({ route, navigation }) => {
             <Text style={styles.contentHeaderSubtitle}>{item.category}</Text>
             <Text style={styles.contentHeaderTitle}>{item.name}</Text>
           </View>
-          <Text style={styles.contentHeaderPrice}>${item.price.toFixed(2)}</Text>
+          <Text style={styles.contentHeaderPrice}>R${item.price.toFixed(2)}</Text>
         </View>
 
         <View style={styles.contentRating}>

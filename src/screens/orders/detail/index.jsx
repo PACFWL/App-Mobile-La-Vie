@@ -51,7 +51,7 @@ const DetailScreen = ({ navigation, route }) => {
                 <Text style={styles.paymentOptionText}>Dinheiro</Text>
               </View>
             )}
-            <Text style={styles.paymentRight}>${order.total.toFixed(2)}</Text>
+            <Text style={styles.paymentRight}>R${order.total.toFixed(2)}</Text>
           </View>
         </View>
 

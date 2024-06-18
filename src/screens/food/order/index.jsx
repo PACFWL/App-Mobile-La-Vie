@@ -48,7 +48,7 @@ const OrderItem = ({ item }) => {
           <Text style={styles.orderItemDataHeadingText}>
             {item.qty} x {item.item.name}
           </Text>
-          <Text style={styles.orderItemDataHeadingPrice}>${item.item.price.toFixed(2)}</Text>
+          <Text style={styles.orderItemDataHeadingPrice}>R${item.item.price.toFixed(2)}</Text>
         </View>
         <View style={styles.orderItemDataActions}>
           <View style={styles.orderItemIncDec}>

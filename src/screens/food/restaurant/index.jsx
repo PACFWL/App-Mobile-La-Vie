@@ -155,7 +155,7 @@ const RestaurantScreen = ({ route, navigation }) => {
         <View style={styles.placeOrderContainer}>
           <View style={styles.placeOrderPrice}>
             <FontAwesome5 name="concierge-bell" size={18} color={theme.colors.black} />
-            <Text style={styles.placeOrderPriceText}>${orderTotal.toFixed(2)}</Text>
+            <Text style={styles.placeOrderPriceText}>R${orderTotal.toFixed(2)}</Text>
           </View>
           <TouchableOpacity onPress={handlePlaceOrder}>
             <View style={styles.placeOrderCTA}>

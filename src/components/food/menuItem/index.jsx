@@ -20,7 +20,7 @@ const MenuItem = ({ item, restaurant }) => {
           <Text style={styles.menuItemTitle}>{item.name}</Text>
           <Text style={styles.menuItemDescription}>{item.description}</Text>
           <View style={styles.menuItemPriceStars}>
-            <Text style={styles.menuItemPrice}>${item.price?.toFixed(2)}</Text>
+            <Text style={styles.menuItemPrice}>R${item.price?.toFixed(2)}</Text>
             <StarsRating stars={item.stars} />
           </View>
         </View>

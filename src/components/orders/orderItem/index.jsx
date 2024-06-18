@@ -20,7 +20,7 @@ const OrderItem = ({ order }) => {
               <Text style={styles.orderDataTopSubtitle}>{order.address.address}</Text>
             </View>
             <View style={styles.orderDataBottom}>
-              <Text style={styles.orderDataBottomPrice}>${order.total.toFixed(2)}</Text>
+              <Text style={styles.orderDataBottomPrice}>R${order.total.toFixed(2)}</Text>
               <Text style={styles.orderDataBottomPayment}>{order.payment}</Text>
             </View>
           </View>

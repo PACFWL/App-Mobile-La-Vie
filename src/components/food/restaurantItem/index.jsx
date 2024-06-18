@@ -31,7 +31,7 @@ const RestaurantItem = ({ restaurant, navigation }) => {
             <View style={styles.restaurantItemBenchmarksItem}>
               <MaterialCommunityIcons name="car-outline" size={18} color={theme.colors.black} />
               <Text style={styles.restaurantItemBenchmarksItemText}>
-                {restaurant.deliveryCost === 0 ? 'Free delivery' : `$${restaurant.deliveryCost}`}
+                {restaurant.deliveryCost === 0 ? 'Free delivery' : `R$${restaurant.deliveryCost}`}
               </Text>
             </View>
           </View>
