@@ -1,10 +1,8 @@
-﻿# La Vie - App Mobile
+# La Vie - App Mobile
 
 Aplicativo móvel de um menu digital com entrega ou compra localalmente, desenvolvido com React Native e Expo para o PI do 5° Semestre do curso de DSM.
 
 Nele você pode se cadastrar ou fazer login para pedir comida, pesquisar restaurantes por nome ou tipo, adicionar restaurantes à sua lista de favoritos, gerenciar seu pedido, gerenciar suas direções e cartões de crédito/débito, gerenciar seu perfil, fazer upload de uma foto de perfil, entre muitas outras coisas.
-
-
 
 ## Características
 
@@ -17,3 +15,25 @@ Nele você pode se cadastrar ou fazer login para pedir comida, pesquisar restaur
 7. **`Informações do usuário`** (os usuários podem ver suas informações e editá-las)
 8. **`Foto Avatar`** (Os usuários podem fazer upload de uma foto avatar de sua biblioteca ou com a câmera)
 9. **`Endereços e Cartões`** (Os usuários podem adicionar e gerenciar seus endereços e cartões)
+
+## Instalação do Aplicativo
+
+Para instalar o aplicativo, siga os seguintes passos:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/PACFWL/App-Mobile-La-Vie.git
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd App-Mobile-La-Vie
+   ```
+
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+   Caso ocorra algum erro devido a dependências desatualizadas, use o comando:
+   ```bash
+   npm install --legacy-peer-deps
+   ```
