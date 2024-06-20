@@ -8,7 +8,7 @@ Nele você pode se cadastrar ou fazer login para pedir comida, pesquisar restaur
 ## Características
 
 1. **Autenticação**: Os usuários podem se registrar e fazer login.
-2. **Encomendar Comida**: Os usuários podem fazer pedidos para qualquer um dos restaurantes que o foodie oferece.
+2. **Encomendar Comida**: Os usuários podem fazer pedidos que o "La Vie" oferece.
 3. **Pesquisar e Filtrar Restaurantes e Comidas**: Os usuários podem filtrar restaurantes e comidas pesquisando o nome ou filtrando por tags.
 4. **Restaurantes Favoritos**: Os usuários podem adicionar restaurantes como favoritos para que possam fazer pedidos rapidamente.
 5. **Opções de Checkout**: O usuário pode aumentar, diminuir ou excluir itens do pedido e pode escolher a forma de pagamento.
